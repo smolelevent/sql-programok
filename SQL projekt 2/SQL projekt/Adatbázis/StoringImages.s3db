@@ -1,0 +1,5 @@
+﻿CREATE TABLE [ImageStore] (
+[ImageStore_Id] INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+[ImageFile] NVARCHAR(20) NULL,
+[ImageBlob] BLOB NULL
+);
